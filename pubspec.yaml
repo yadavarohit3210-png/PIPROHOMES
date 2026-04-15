@@ -1,0 +1,24 @@
+# Flutter app package configuration
+name: your_app_name
+description: A new Flutter project.
+version: 1.0.0+1
+publish_to: 'none' # Replace with your publishing URL
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.0
+# and can optionally be followed by the build number, which is an integer
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
